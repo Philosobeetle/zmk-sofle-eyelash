@@ -55,15 +55,14 @@
 
         Luigi {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3           &bt BT_SEL 4      &mmv MOVE_UP     &kp K_SCREENSAVER  &kp C_REWIND  &kp K_PLAY_PAUSE  &kp C_FF  &kp C_VOL_DN   &kp C_VOL_UP
+&rgb_ug RGB_EFF  &kp TILDE        &kp HASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTRK         &mmv MOVE_DOWN   &kp INT_YEN        &kp N7        &kp N8            &kp N9    &kp BACKSLASH  &kp K_MUTE
+&rgb_ug RGB_EFR  &kp EXCLAMATION  &kp AT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &mmv MOVE_LEFT   &kp DOLLAR         &kp N4        &kp N5            &kp N6    &kp PLUS       &kp C_BRIGHTNESS_INC
+&rgb_ug RGB_ON   &kp PERCENT      &kp CARET     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE          &mmv MOVE_RIGHT  &kp AMPERSAND      &kp N1        &kp N2            &kp N3    &kp MINUS      &kp C_BRIGHTNESS_DEC
+&kp C_MUTE       &kp KP_EQUAL     &trans        &trans                &trans                 &trans            &mkp LCLK        &trans             &trans        &trans            &kp N0    &kp DOT
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         Peach {

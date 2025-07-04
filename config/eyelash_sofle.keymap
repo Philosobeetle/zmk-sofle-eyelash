@@ -50,7 +50,7 @@
 &kp C_MUTE  &kp LCTRL  &mo 2   &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND    &kp ENTER        &mo 1   &kp ENTER  &kp CAPS   &caps_word  &kp HOME
             >;
 
-            display-name = "LAYER0";
+            display-name = "Mario";
         };
 
         Luigi {
@@ -62,7 +62,7 @@
 &kp C_MUTE       &kp KP_EQUAL     &trans        &trans                &trans                 &trans            &mkp LCLK        &trans             &trans        &trans            &kp N0    &kp DOT
             >;
 
-            display-name = "layer1";
+            display-name = "Luigi";
         };
 
         Peach {
@@ -73,6 +73,8 @@
 &trans        &trans        &trans          &trans          &trans           &trans          &mmv MOVE_RIGHT  &trans     &trans          &trans        &trans  &trans  &trans
 &trans        &trans        &trans          &trans          &trans           &trans          &mkp LCLK        &trans     &trans          &trans        &trans  &trans
             >;
+
+            label = "Peach";
         };
 
         Bowser {
@@ -83,6 +85,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "Bowser";
         };
     };
 };

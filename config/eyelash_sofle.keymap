@@ -45,7 +45,7 @@
             bindings = <
 &kp ESC     &kp F1     &kp F2  &kp F3        &kp F4     &kp F5              &kp UP_ARROW     &kp F6  &kp F7     &kp F8     &kp F9      &kp F10   &kp F11
 &kp TAB     &kp Q      &kp W   &kp F         &kp P      &kp G               &kp DOWN_ARROW   &kp J   &kp L      &kp U      &kp Y       &kp SEMI  &kp F12
-&kp DEL     &kp A      &kp R   &kp S         &kp T      &kp D               &kp LEFT_ARROW   &kp H   &kp N      &kp E      &kp I       &kp O     &kp APOS
+&kp DELETE  &kp A      &kp R   &kp S         &kp T      &kp D               &kp LEFT_ARROW   &kp H   &kp N      &kp E      &kp I       &kp O     &kp APOS
 &kp LSHFT   &kp Z      &kp X   &kp C         &kp V      &kp B               &kp RIGHT_ARROW  &kp N   &kp M      &kp COMMA  &kp DOT     &kp FSLH  &kp RIGHT_SHIFT
 &kp C_MUTE  &kp LCTRL  &mo 2   &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND    &kp ENTER        &mo 1   &kp ENTER  &kp CAPS   &caps_word  &kp HOME
             >;

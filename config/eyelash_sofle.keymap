@@ -67,11 +67,11 @@
 
         Peach {
             bindings = <
-&bootloader   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4    &mmv MOVE_UP     &trans     &trans          &trans        &trans  &trans  &bootloader
-&sys_reset    &bt BT_CLR    &trans          &mmv MOVE_UP    &trans           &trans          &mmv MOVE_DOWN   &trans     &msc SCRL_DOWN  &msc SCRL_UP  &trans  &trans  &sys_reset
-&out OUT_BLE  &out OUT_USB  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &mmv MOVE_LEFT   &mkp MCLK  &mkp LCLK       &mkp RCLK     &trans  &trans  &trans
-&trans        &trans        &trans          &trans          &trans           &trans          &mmv MOVE_RIGHT  &trans     &trans          &trans        &trans  &trans  &trans
-&trans        &trans        &trans          &trans          &trans           &trans          &mkp LCLK        &trans     &trans          &trans        &trans  &trans
+&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4    &mmv MOVE_UP     &trans     &trans          &trans        &trans  &trans  &bootloader
+&kp PRINTSCREEN  &bt BT_CLR    &trans          &mmv MOVE_UP    &trans           &trans          &mmv MOVE_DOWN   &trans     &msc SCRL_DOWN  &msc SCRL_UP  &trans  &trans  &sys_reset
+&out OUT_BLE     &out OUT_USB  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &mmv MOVE_LEFT   &mkp MCLK  &mkp LCLK       &mkp RCLK     &trans  &trans  &trans
+&trans           &trans        &trans          &trans          &trans           &trans          &mmv MOVE_RIGHT  &trans     &trans          &trans        &trans  &trans  &trans
+&trans           &trans        &trans          &trans          &trans           &trans          &mkp LCLK        &trans     &trans          &trans        &trans  &trans
             >;
 
             label = "Peach";
